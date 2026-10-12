@@ -1,0 +1,44 @@
+KYNORA PROPRIETARY SOURCE LICENSE
+Copyright (c) 2026 Aaditya945. All rights reserved.
+
+1. OWNERSHIP
+
+Except for third-party materials governed by their own terms, the original Kynora source code, documentation, project-specific design, and branding in this repository (the “Kynora Materials”) are reserved by the copyright holder.
+
+2. LIMITED PUBLIC ACCESS
+
+This repository is publicly hosted on GitHub. This notice does not restrict rights that GitHub’s Terms of Service grant to users to view and fork public repositories through GitHub’s platform. It does not attempt to override GitHub’s Terms of Service or any rights that cannot legally be excluded.
+
+Public visibility, access to source files, and the ability to fork this repository do not otherwise grant permission to use Kynora as software or to exploit the Kynora Materials outside those platform permissions.
+
+3. PERMISSION REQUIRED FOR OTHER USE
+
+Except for the limited platform permissions described above and any non-waivable rights under applicable law, you may not, without prior explicit written permission from the copyright holder:
+
+- run, use, or incorporate the Kynora Materials into another project, product, or service;
+- copy, adapt, modify, or create derivative works from the Kynora Materials;
+- publish, distribute, sublicense, sell, offer for sale, or commercially exploit the Kynora Materials;
+- redistribute Kynora or a modified version of Kynora outside the permissions expressly granted by the applicable platform terms;
+- remove or alter copyright or ownership notices; or
+- represent the original Kynora project or its original code as your own, or imply that the copyright holder endorses or is affiliated with your project.
+
+A fork or copy made through GitHub’s platform does not grant any additional permission to use or distribute the Kynora Materials outside the rights described in this notice.
+
+4. THIRD-PARTY MATERIALS
+
+This notice applies only to material owned by the Kynora copyright holder. Third-party libraries, tools, generated files, and other components remain subject to their own applicable licenses and notices. Nothing in this notice replaces or overrides those terms. You are responsible for reviewing and complying with the applicable third-party terms before using or distributing third-party components.
+
+5. TRADEMARKS
+
+No permission is granted to use the Kynora name, logo, or branding to imply ownership, endorsement, or affiliation without prior written permission, except as required to refer accurately to the original project.
+
+6. NO WARRANTY
+
+To the fullest extent permitted by applicable law, the Kynora Materials are provided “AS IS”, without warranties or conditions of any kind, express or implied. The copyright holder is not liable for claims or damages arising from the materials, to the extent permitted by law.
+
+7. REQUESTING PERMISSION
+
+To request permission for a use not allowed by this notice, contact the copyright holder through the GitHub account:
+https://github.com/Aaditya945
+
+This is a custom proprietary notice, not an OSI-approved open-source license. It is provided as a practical statement of intent and is not legal advice.
