@@ -1,0 +1,23 @@
+[package]
+name = "tauri-java-editor"
+version = "0.1.0"
+description = "Kynora desktop Java editor"
+authors = ["You"]
+edition = "2024"
+rust-version = "1.90"
+
+[lib]
+name = "tauri_java_editor_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.6.3", features = [] }
+
+[dependencies]
+tauri = { version = "2.11.5", features = [] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[features]
+default = ["custom-protocol"]
+custom-protocol = ["tauri/custom-protocol"]
