@@ -2,7 +2,7 @@
 
 Kynora is a Java-focused desktop IDE built with **Tauri 2, React, TypeScript, Rust, and Monaco Editor**.
 
-> **Source-available and proprietary.** This repository publishes Kynora's original source code for public inspection. It is not an open-source release. See [`LICENSE`](LICENSE) for the proprietary terms. Because this repository is public, GitHub's Terms of Service allow users to view and fork it through GitHub; the custom notice does not override those platform permissions.
+> **Source-available and proprietary.** This repository publishes Kynora's original source code for public inspection. It is not an open-source release. See [`LICENSE`](https://github.com/Aaditya945/Kynora-IDE/blob/main/LICENSE) for the proprietary terms. Because this repository is public, GitHub's Terms of Service allow users to view and fork it through GitHub; the custom notice does not override those platform permissions.
 
 ## Features
 
@@ -36,32 +36,18 @@ This repository is currently configured for a Windows desktop build.
 
 1. Clone this repository and enter the project directory:
 
-   ```bash
-   git clone https://github.com/Aaditya945/Kynora-IDE.git
-   cd Kynora-IDE
-   ```
-
+   git clone [https://github.com/Aaditya945/Kynora-IDE.git](https://github.com/Aaditya945/Kynora-IDE.git) cd Kynora-IDE
 2. Install Java and set `JAVA_HOME` to the JDK directory if it is not already discoverable through one of the locations checked by the JDK detection script.
-
 3. Install JavaScript dependencies:
 
-   ```bash
    npm ci
-   ```
-
 4. **Set up JDTLS separately.** Download a compatible distribution from the [official Eclipse JDT Language Server project](https://github.com/eclipse-jdtls/eclipse.jdt.ls) and unpack it into a `jdtls/` directory at the project root. The directory should include the distribution's `plugins/` directory and the matching platform configuration. Review and comply with the upstream and bundled third-party license notices. The `jdtls/` directory is intentionally excluded from this repository.
-
 5. Start the desktop app in development mode:
 
-   ```bash
    npm run tauri dev
-   ```
-
 6. To build the configured Windows installer (after completing the Tauri and JDTLS setup):
 
-   ```bash
    npm run tauri build
-   ```
 
 For a frontend-only browser preview, run `npm run dev`. Native Tauri commands and the full IDE workflow require the desktop app.
 
@@ -70,12 +56,12 @@ For a frontend-only browser preview, run `npm run dev`. Native Tauri commands an
 Open the AI Tutor panel in Kynora, enter your own OpenRouter API key, and select **Save Key**. The key is stored in the app's local WebView storage. When you ask the tutor for help, Kynora sends the current Java error text to OpenRouter to request an explanation. Do not submit secrets or sensitive information in error text. Do not commit API keys, `.env` files, or build-time secrets to this public repository.
 
 ## Project layout
-
-```text
+```
 src/                  React/TypeScript UI, editor, terminal, AI Tutor
 src-tauri/src/        Rust backend, Java execution, JDTLS/LSP integration
 src-tauri/            Tauri configuration, capabilities, icons
 scripts/              Local JDK detection script
+
 ```
 
 ## Development notes
@@ -88,6 +74,36 @@ scripts/              Local JDK detection script
 
 ## Licensing and ownership
 
-Kynora's original source code is proprietary and all rights are reserved as stated in [`LICENSE`](LICENSE). No general permission is granted to use, modify, redistribute, sell, or incorporate Kynora's original code into another product without prior written permission, subject to applicable law and GitHub's platform terms. Third-party libraries and tools remain under their own licenses; this notice does not relicense them.
+Kynora's original source code is proprietary and all rights are reserved as stated in [`LICENSE`](https://github.com/Aaditya945/Kynora-IDE/blob/main/LICENSE). No general permission is granted to use, modify, redistribute, sell, or incorporate Kynora's original code into another product without prior written permission, subject to applicable law and GitHub's platform terms. Third-party libraries and tools remain under their own licenses; this notice does not relicense them.
 
 This repository provides source code, not a prebuilt installer. Features and setup requirements may change as the project evolves.
+
+---
+
+## Project Status and Closure
+
+<badge color="secondary">Permanently Discontinued</badge>
+
+**Closure Date: 30 October 2026**
+
+Kynora IDE was permanently discontinued on 30 October 2026.
+
+The decision to close the project followed increasing development complexity, recurring bugs, and the difficulties encountered during optimization and code maintenance. The effort required to keep improving and optimizing the codebase became increasingly difficult to manage.
+
+Kynora was not discontinued because its original idea lacked potential. The project was closed because maintaining its growing complexity and resolving recurring technical issues had become unsustainable.
+
+The repository is preserved as a historical record of the project's source code, development work, and original vision.
+
+## Lessons Learned
+
+Kynora's development provided valuable practical lessons in software engineering:
+
+1. **Plan before optimizing:** Understand the architecture, requirements, and limitations before attempting optimization.
+2. **Think before writing more:** Consider maintainability and complexity before continuously adding new features or code.
+3. **Refactor before the codebase becomes a dump:** Improve structure and organization regularly instead of allowing technical debt to accumulate.
+4. **Stability before features:** A reliable feature is more valuable than several unfinished or unstable features.
+5. **Optimization should have a purpose:** Optimization should solve measurable problems rather than become an endless cycle of changes.
+
+These lessons remain an important part of Kynora's development journey.
+
+**Kynora's development is closed. Its source code and the lessons learned from building it remain.**
